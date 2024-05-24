@@ -9,7 +9,7 @@ from datetime import date, datetime
 app = Flask(__name__)
 
 #Initialize Firebase app
-cred = credentials.Certificate("mysite/avis-version-1-firebase-adminsdk-f8gqq-6b02d2edb6.json")
+cred = credentials.Certificate("avis-version-1-firebase-adminsdk-f8gqq-6b02d2edb6.json")
 firebase_admin.initialize_app(cred)
 db = firestore.client()
 
